@@ -823,4 +823,18 @@ F 3 "" H 8600 6400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8600 6400 8750 6400
+$Comp
+L formula:D_Zener_18V D?
+U 1 1 5BE5D012
+P 9600 5100
+F 0 "D?" H 9600 5316 50  0000 C CNN
+F 1 "D_Zener_18V" H 9600 5225 50  0000 C CNN
+F 2 "footprints:DO-214AA" H 9500 5100 50  0001 C CNN
+F 3 "http://www.mccsemi.com/up_pdf/SMBJ5338B-SMBJ5388B(SMB).pdf" H 9600 5200 50  0001 C CNN
+F 4 "DK" H 9800 5400 60  0001 C CNN "MFN"
+F 5 "SMBJ5355B-TPMSCT-ND" H 9700 5300 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=SMBJ5355B-TPMSCT-ND" H 10000 5600 60  0001 C CNN "PurchasingLink"
+	1    9600 5100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
