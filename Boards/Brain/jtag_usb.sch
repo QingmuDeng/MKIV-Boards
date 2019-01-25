@@ -19,146 +19,91 @@ PA[0..15]
 Text Label 3350 1650 2    50   ~ 0
 PA[0..15]
 Wire Wire Line
-	3850 1650 4250 1650
-Wire Wire Line
-	3850 1850 4250 1850
-Text Label 3850 1650 0    50   ~ 0
+	3900 1650 4250 1650
+Text Label 3900 1650 0    50   ~ 0
 PA13
-Text Label 3850 1850 0    50   ~ 0
+Text Label 3900 1850 0    50   ~ 0
 PA14
 Text Label 4250 1650 0    50   ~ 0
 SWDIO
 Text Label 4250 1850 0    50   ~ 0
 SWCLK
-Text Label 6950 1800 2    50   ~ 0
+Text Label 3350 3050 2    50   ~ 0
 SWDIO
-Text Label 6950 1900 2    50   ~ 0
+Text Label 3350 3150 2    50   ~ 0
 SWCLK
 Wire Wire Line
-	6950 1800 6650 1800
+	3350 3050 3050 3050
 Wire Wire Line
-	6950 1900 6650 1900
+	3350 3150 3050 3150
 Wire Wire Line
-	6150 2000 6050 2000
+	2550 3250 2450 3250
 Wire Wire Line
-	6050 2000 6050 2100
+	2450 3250 2450 3350
 $Comp
 L power:GND #PWR?
 U 1 1 5BC591EA
-P 6050 2100
-F 0 "#PWR?" H 6050 1850 50  0001 C CNN
-F 1 "GND" H 6055 1927 50  0000 C CNN
-F 2 "" H 6050 2100 50  0001 C CNN
-F 3 "" H 6050 2100 50  0001 C CNN
-	1    6050 2100
+P 2450 3350
+F 0 "#PWR?" H 2450 3100 50  0001 C CNN
+F 1 "GND" H 2455 3177 50  0000 C CNN
+F 2 "" H 2450 3350 50  0001 C CNN
+F 3 "" H 2450 3350 50  0001 C CNN
+	1    2450 3350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6150 1800 6050 1800
+	2550 3050 2450 3050
 Wire Wire Line
-	6050 1800 6050 1700
+	2450 3050 2450 2950
 Text HLabel 3350 1900 2    50   BiDi ~ 0
 PB[0..15]
 Text Label 3350 1900 2    50   ~ 0
 PB[0..15]
 Wire Wire Line
-	3850 2050 4250 2050
-Text Label 3850 2050 0    50   ~ 0
+	3900 2150 4250 2150
+Text Label 3900 2150 0    50   ~ 0
 PB3
 Text Label 4250 2050 0    50   ~ 0
 TRACESWO
-Text Label 7100 2000 2    50   ~ 0
+Text Label 3500 3250 2    50   ~ 0
 TRACESWO
 Wire Wire Line
-	7100 2000 6650 2000
+	3500 3250 3050 3250
 Wire Wire Line
-	6150 1900 6000 1900
-Text HLabel 3350 2100 2    50   BiDi ~ 0
+	2550 3150 2400 3150
+Text HLabel 3350 2250 2    50   BiDi ~ 0
 NRST
-Text Label 3350 2100 2    50   ~ 0
+Text Label 3350 2250 2    50   ~ 0
 NRST
-Text Label 6000 1900 2    50   ~ 0
+Text Label 2400 3150 2    50   ~ 0
 NRST
 $Comp
 L power:VDD #PWR?
 U 1 1 5BD476A1
-P 6050 1700
-F 0 "#PWR?" H 6050 1550 50  0001 C CNN
-F 1 "VDD" H 6067 1873 50  0000 C CNN
-F 2 "" H 6050 1700 50  0001 C CNN
-F 3 "" H 6050 1700 50  0001 C CNN
-	1    6050 1700
+P 2450 2950
+F 0 "#PWR?" H 2450 2800 50  0001 C CNN
+F 1 "VDD" H 2467 3123 50  0000 C CNN
+F 2 "" H 2450 2950 50  0001 C CNN
+F 3 "" H 2450 2950 50  0001 C CNN
+	1    2450 2950
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:CONN_02X03 J?
 U 1 1 5BE4F143
-P 6400 1900
+P 2800 3150
 AR Path="/5BE4F143" Ref="J?"  Part="1" 
 AR Path="/5BB6C0E9/5BE4F143" Ref="J?"  Part="1" 
-F 0 "J?" H 6400 2215 50  0000 C CNN
-F 1 "CONN_02X03" H 6400 2124 50  0000 C CNN
-F 2 "footprints:Pin_Header_Straight_2x03" H 6400 700 50  0001 C CNN
-F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/67996.pdf" H 6400 700 50  0001 C CNN
-F 4 "DK" H 6400 1900 60  0001 C CNN "MFN"
-F 5 "609-3234-ND" H 6400 1900 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/amphenol-fci/67997-206HLF/609-3234-ND/1878491" H 6800 2500 60  0001 C CNN "PurchasingLink"
-	1    6400 1900
+F 0 "J?" H 2800 3465 50  0000 C CNN
+F 1 "CONN_02X03" H 2800 3374 50  0000 C CNN
+F 2 "footprints:Pin_Header_Straight_2x03" H 2800 1950 50  0001 C CNN
+F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/67996.pdf" H 2800 1950 50  0001 C CNN
+F 4 "DK" H 2800 3150 60  0001 C CNN "MFN"
+F 5 "609-3234-ND" H 2800 3150 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/amphenol-fci/67997-206HLF/609-3234-ND/1878491" H 3200 3750 60  0001 C CNN "PurchasingLink"
+	1    2800 3150
 	1    0    0    -1  
 $EndComp
-$Comp
-L formula:USB_MicroB U?
-U 1 1 5BE5095D
-P 3400 3300
-F 0 "U?" H 3455 3767 50  0000 C CNN
-F 1 "USB_MicroB" H 3455 3676 50  0000 C CNN
-F 2 "Connectors_USB:USB_Micro-B_Molex-105017-0001" H 3350 3650 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/1050170001_sd.pdf" H 3350 3650 50  0001 C CNN
-F 4 "DK" H 3650 3050 50  0001 C CNN "MFN"
-F 5 "WM1399CT-ND" H 3750 3150 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/molex-llc/1050170001/WM1399CT-ND/2350885" H 3850 3250 50  0001 C CNN "PurchasingLink"
-	1    3400 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5BE50E06
-P 3350 3900
-F 0 "#PWR?" H 3350 3650 50  0001 C CNN
-F 1 "GND" H 3355 3727 50  0000 C CNN
-F 2 "" H 3350 3900 50  0001 C CNN
-F 3 "" H 3350 3900 50  0001 C CNN
-	1    3350 3900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3300 3700 3300 3900
-Wire Wire Line
-	3300 3900 3350 3900
-Wire Wire Line
-	3400 3700 3400 3900
-Wire Wire Line
-	3400 3900 3350 3900
-Connection ~ 3350 3900
-Text Label 3700 3500 0    50   ~ 0
-PA10
-Text Label 3700 3400 0    50   ~ 0
-PA11
-Text Label 3700 3300 0    50   ~ 0
-PA12
-$Comp
-L power:VDD #PWR?
-U 1 1 5BEA6807
-P 3850 3100
-F 0 "#PWR?" H 3850 2950 50  0001 C CNN
-F 1 "VDD" H 3867 3273 50  0000 C CNN
-F 2 "" H 3850 3100 50  0001 C CNN
-F 3 "" H 3850 3100 50  0001 C CNN
-	1    3850 3100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3700 3100 3850 3100
 $Comp
 L formula:MCP2561-E_SN U?
 U 1 1 5BEA6E3A
@@ -261,10 +206,6 @@ F 3 "" H 5200 2850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5200 3650 5200 3750
-Text Label 4400 3050 0    50   ~ 0
-PA12
-Text Label 4400 3150 0    50   ~ 0
-PA11
 Wire Wire Line
 	4400 3050 4700 3050
 Wire Wire Line
@@ -298,4 +239,161 @@ Wire Wire Line
 Connection ~ 5950 3350
 Wire Wire Line
 	5950 3350 6150 3350
+Wire Bus Line
+	3350 1650 3350 1450
+Wire Bus Line
+	3350 1450 3800 1450
+Wire Wire Line
+	3900 1850 4250 1850
+Wire Bus Line
+	3350 2050 3800 2050
+Wire Wire Line
+	3900 1450 4250 1450
+Text Label 3900 1450 0    50   ~ 0
+PA12
+Text Label 4250 1450 0    50   ~ 0
+TXD
+Wire Wire Line
+	3900 1250 4250 1250
+Text Label 3900 1250 0    50   ~ 0
+PA11
+Text Label 4250 1250 0    50   ~ 0
+RXD
+Text Label 4400 3050 0    50   ~ 0
+TXD
+Text Label 4400 3150 0    50   ~ 0
+RXD
+Wire Bus Line
+	3350 1900 3350 2050
+Connection ~ 3800 1450
+Entry Wire Line
+	3800 1750 3900 1850
+Entry Wire Line
+	3800 1550 3900 1650
+Entry Wire Line
+	3800 1350 3900 1450
+Entry Wire Line
+	3800 1150 3900 1250
+Entry Wire Line
+	3800 2050 3900 2150
+Text Label 3300 4700 2    50   ~ 0
+PC[0..15]
+Text HLabel 3300 4700 2    50   BiDi ~ 0
+PC[0..15]
+Entry Wire Line
+	3300 4800 3400 4900
+Entry Wire Line
+	3300 5000 3400 5100
+Entry Wire Line
+	3300 5200 3400 5300
+Text Label 3650 4900 0    50   ~ 0
+PC8
+Text Label 3650 5100 0    50   ~ 0
+PC9
+Wire Wire Line
+	3650 5100 3400 5100
+Wire Wire Line
+	3650 4900 3400 4900
+Wire Wire Line
+	3400 5300 3650 5300
+Text Label 3650 5300 0    50   ~ 0
+PC10
+Entry Wire Line
+	3300 5400 3400 5500
+Wire Wire Line
+	3400 5500 3650 5500
+Text Label 3650 5500 0    50   ~ 0
+PC11
+Entry Wire Line
+	3300 5600 3400 5700
+Wire Wire Line
+	3400 5700 3650 5700
+Text Label 3650 5700 0    50   ~ 0
+PC12
+Text HLabel 3300 6000 2    50   BiDi ~ 0
+PD[0..15]
+Text Label 3300 6000 2    50   ~ 0
+PD[0..15]
+Entry Wire Line
+	3300 6100 3400 6200
+Text Label 3650 6200 0    50   ~ 0
+PD2
+Wire Wire Line
+	3650 6200 3400 6200
+$Comp
+L formula:SD_socket_SDMode U?
+U 1 1 5C4B6007
+P 5750 5350
+F 0 "U?" H 5750 6117 50  0000 C CNN
+F 1 "SD_socket_SDMode" H 5750 6026 50  0000 C CNN
+F 2 "" H 5750 6000 50  0001 C CNN
+F 3 "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1" H 5750 6000 50  0001 C CNN
+F 4 "DK" H 6500 6100 50  0001 C CNN "MFN"
+F 5 "HR1972CT-ND" H 6600 6200 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/hirose-electric-co-ltd/DM3CS-SF/HR1972CT-ND/2602740" H 6700 6300 50  0001 C CNN "PurchasingLink"
+	1    5750 5350
+	1    0    0    -1  
+$EndComp
+Text Label 4650 5600 0    50   ~ 0
+PC8
+Text Label 4650 5700 0    50   ~ 0
+PC9
+Text Label 4650 5000 0    50   ~ 0
+PC10
+Text Label 4650 5100 0    50   ~ 0
+PC11
+Text Label 4650 5400 0    50   ~ 0
+PC12
+Text Label 4650 5200 0    50   ~ 0
+PD2
+Wire Wire Line
+	4650 5000 4900 5000
+Wire Wire Line
+	4650 5100 4900 5100
+Wire Wire Line
+	4650 5200 4900 5200
+Wire Wire Line
+	4650 5400 4900 5400
+Wire Wire Line
+	4650 5600 4900 5600
+Wire Wire Line
+	4650 5700 4900 5700
+$Comp
+L power:VDD #PWR?
+U 1 1 5C4B601A
+P 4500 5200
+F 0 "#PWR?" H 4500 5050 50  0001 C CNN
+F 1 "VDD" H 4517 5373 50  0000 C CNN
+F 2 "" H 4500 5200 50  0001 C CNN
+F 3 "" H 4500 5200 50  0001 C CNN
+	1    4500 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C4B6020
+P 4500 5600
+F 0 "#PWR?" H 4500 5350 50  0001 C CNN
+F 1 "GND" H 4505 5427 50  0000 C CNN
+F 2 "" H 4500 5600 50  0001 C CNN
+F 3 "" H 4500 5600 50  0001 C CNN
+	1    4500 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 5200 4500 5300
+Wire Wire Line
+	4500 5300 4900 5300
+Wire Wire Line
+	4500 5600 4500 5500
+Wire Wire Line
+	4500 5500 4900 5500
+Wire Bus Line
+	3800 1150 3800 1450
+Wire Bus Line
+	3800 1450 3800 1750
+Wire Bus Line
+	3300 6000 3300 6150
+Wire Bus Line
+	3300 4700 3300 5600
 $EndSCHEMATC

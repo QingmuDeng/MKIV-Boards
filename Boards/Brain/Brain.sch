@@ -20,20 +20,6 @@ U 5B7360A3
 F0 "power" 50
 F1 "power.sch" 50
 $EndSheet
-Wire Wire Line
-	6450 1900 6000 1900
-Wire Wire Line
-	6000 1700 6450 1700
-Wire Wire Line
-	6450 2100 6000 2100
-Wire Wire Line
-	6450 2300 6000 2300
-Wire Wire Line
-	6450 2500 6000 2500
-Wire Wire Line
-	8300 1900 7850 1900
-Wire Wire Line
-	7850 1700 8300 1700
 Text Label 6000 1700 0    50   ~ 0
 PA[0..15]
 Text Label 6000 1900 0    50   ~ 0
@@ -70,21 +56,45 @@ F1 "jtag_usb.sch" 50
 F2 "PA[0..15]" B L 9200 1650 50 
 F3 "PB[0..15]" B L 9200 1850 50 
 F4 "NRST" B L 9200 2000 50 
+F5 "PC[0..15]" B L 9200 2200 50 
+F6 "PD[0..15]" B L 9200 2400 50 
 $EndSheet
-Wire Wire Line
-	8750 1650 9200 1650
 Text Label 8750 1650 0    50   ~ 0
 PA[0..15]
-Wire Wire Line
-	9200 1850 8750 1850
 Text Label 8750 1850 0    50   ~ 0
 PB[0..15]
 Text Label 8300 2100 2    50   ~ 0
 NRST
-Wire Wire Line
-	7850 2100 8300 2100
 Text Label 8750 2000 0    50   ~ 0
 NRST
-Wire Wire Line
-	9200 2000 8750 2000
+Wire Bus Line
+	6000 1700 6450 1700
+Wire Bus Line
+	6450 1900 6000 1900
+Wire Bus Line
+	6000 2500 6450 2500
+Wire Bus Line
+	7850 2100 8300 2100
+Wire Bus Line
+	8300 1900 7850 1900
+Wire Bus Line
+	7850 1700 8300 1700
+Wire Bus Line
+	8750 1650 9200 1650
+Wire Bus Line
+	9200 1850 8750 1850
+Wire Bus Line
+	8750 2000 9200 2000
+Text Label 8750 2200 0    50   ~ 0
+PC[0..15]
+Text Label 8750 2400 0    50   ~ 0
+PD[0..15]
+Wire Bus Line
+	6000 2100 6450 2100
+Wire Bus Line
+	6000 2300 6450 2300
+Wire Bus Line
+	8750 2200 9200 2200
+Wire Bus Line
+	9200 2400 8750 2400
 $EndSCHEMATC

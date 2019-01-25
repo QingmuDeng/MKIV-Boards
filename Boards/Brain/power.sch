@@ -826,15 +826,15 @@ Wire Wire Line
 $Comp
 L formula:D_Zener_18V D?
 U 1 1 5BE5D012
-P 9600 5100
-F 0 "D?" H 9600 5316 50  0000 C CNN
-F 1 "D_Zener_18V" H 9600 5225 50  0000 C CNN
-F 2 "footprints:DO-214AA" H 9500 5100 50  0001 C CNN
-F 3 "http://www.mccsemi.com/up_pdf/SMBJ5338B-SMBJ5388B(SMB).pdf" H 9600 5200 50  0001 C CNN
-F 4 "DK" H 9800 5400 60  0001 C CNN "MFN"
-F 5 "SMBJ5355B-TPMSCT-ND" H 9700 5300 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=SMBJ5355B-TPMSCT-ND" H 10000 5600 60  0001 C CNN "PurchasingLink"
-	1    9600 5100
+P 6200 5850
+F 0 "D?" H 6200 6066 50  0000 C CNN
+F 1 "D_Zener_18V" H 6200 5975 50  0000 C CNN
+F 2 "footprints:DO-214AA" H 6100 5850 50  0001 C CNN
+F 3 "http://www.mccsemi.com/up_pdf/SMBJ5338B-SMBJ5388B(SMB).pdf" H 6200 5950 50  0001 C CNN
+F 4 "DK" H 6400 6150 60  0001 C CNN "MFN"
+F 5 "SMBJ5355B-TPMSCT-ND" H 6300 6050 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=SMBJ5355B-TPMSCT-ND" H 6600 6350 60  0001 C CNN "PurchasingLink"
+	1    6200 5850
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
